@@ -120,7 +120,7 @@ const NavBar = () => {
           >
             {links.map((link) => (
               <motion.div variants={listItemVariants} key={link.title}>
-                <Link href={link.href}>{link.title}</Link>
+                <Link href={link.title}>{link.title}</Link>
               </motion.div>
             ))}
           </motion.div>
